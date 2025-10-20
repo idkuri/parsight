@@ -1,0 +1,13 @@
+@layer theme, base, components, utilities;
+$navbar-offset: 64px;
+
+div[data-component="layout"] {
+    transition: margin 250ms;
+    margin-top: $navbar-offset;
+}
+
+@media (max-height: 800px) {
+    div[data-component="layout"] {
+        margin-top: $navbar-offset;
+    }
+}
