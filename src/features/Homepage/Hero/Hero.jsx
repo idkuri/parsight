@@ -1,6 +1,6 @@
 import { ArrowRight, Sparkles } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import logo from "@assets/icononly_transparent_nobuffer.png";
+import logo from "@assets/homepage_logo.png";
 import "@styles/index.css"
 
 export default function Hero() {
@@ -18,12 +18,12 @@ export default function Hero() {
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4 py-20 text-center">
           {/* Logo */}
-          <div className="mb-8 flex justify-center">
+          <div className="mb-8 flex justify-center object-cover">
             <div className="relative">
               <img 
                 src={logo} 
                 alt="Logo" 
-                className="w-60 h-60 md:w-75 md:h-75 animate-pulse"
+                className="w-60 h-60 md:w-125 md:h-125 animate-pulse"
                 style={{ filter: "drop-shadow(var(--glow-primary))" }}
               />
             </div>

@@ -1,4 +1,4 @@
-import logo from "@assets/icononly_transparent_nobuffer.png";
+import logo from "@assets/logo_only.png";
 
 const footerLinks = {
   Product: ["Features", "Integrations", "Pricing", "Changelog", "API"],
@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <img src={logo} alt="Logo" className="w-10 h-10" />
-              <span className="text-xl font-bold">Gnostora.ai</span>
+              <span className="text-xl font-bold">Parsight</span>
             </div>
             <p className="text-muted-foreground text-sm mb-4">
               Connect your apps and automate workflows with AI-powered automation.
@@ -47,7 +47,6 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2025 Gnostora. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

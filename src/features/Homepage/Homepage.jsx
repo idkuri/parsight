@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react';
-import logo from "@assets/icononly_transparent_nobuffer.png"
 import { useAuth } from "@contexts/AuthContext"
 import { useNavigate } from 'react-router-dom';
 import Hero from "./Hero"

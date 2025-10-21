@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '@contexts/AuthContext';
 import { logOut } from '@API/AuthAPI';
-import logo from "@assets/icononly_transparent_nobuffer.png"
+import logo from "@assets/logo_only.png"
 import { LoaderCircle, LogOut } from 'lucide-react';
 
 
@@ -50,14 +50,14 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
                             <div className="flex items-center space-x-2 hover:cursor-pointer" onClick={() => navigate('/')}>
-                                <img src={logo} className='w-[40px] h-[40px]'></img>
+                                <img src={logo} className='w-[70px] h-[70px]'></img>
 
                                 {/* <div className="h-8 w-8 rounded-lg bg-black flex items-center justify-center">
                                     <span className="text-white font-bold">P</span>
                                 </div> */}
                                 <div className="flex flex-col">
                                     <span className="font-semibold text-xl">Parsight</span>
-                                    <span className="text-xs text-muted-foreground -mt-1">by Gnostora AI</span>
+                                    <span className="text-xs text-muted-foreground -mt-1">by idkuri</span>
                                 </div>
                             </div>
                         </div>
